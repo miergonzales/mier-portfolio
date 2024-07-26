@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className={styles.container}>
       <div className={styles.textContainer}>
-        <h1 className={styles.title}>Software Engineer</h1>
+        <h1 className={styles.title}>Welcome to my portfolio</h1>
         <p className={styles.desc}>
           Mier Leandro Gonzales is a frontend-focused Software Engineer with
           expertise in React.js and Next.js. Specializing in creating dynamic,

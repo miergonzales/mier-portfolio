@@ -5,11 +5,11 @@ const AboutPage = () => {
   return (
     <div className={styles.container}>
       <div className={styles.textContainer}>
-        <h2>About Mier</h2>
-        <h1>
+        <h2 className={styles.subTitle}>About Mier</h2>
+        <h1 className={styles.title}>
           I create digital ideas that are bigger, bolder, braver and better
         </h1>
-        <p>
+        <p className={styles.desc}>
           Mier Leandro Gonzales is a skilled Software Engineer specializing in
           frontend technologies, with a strong focus on creating intuitive and
           visually appealing user interfaces. With a deep expertise in React.js
@@ -22,14 +22,27 @@ const AboutPage = () => {
           driving innovation.
         </p>
         <div className={styles.boxes}>
-            <div className={styles.box}>
-                <h1>10 K+</h1>
-                <p>Years of Experience</p>
-            </div>
+          <div className={styles.box}>
+            <h1>10 K+</h1>
+            <p>Years of Experience</p>
+          </div>
+          <div className={styles.box}>
+            <h1>10 K+</h1>
+            <p>Years of Experience</p>
+          </div>
+          <div className={styles.box}>
+            <h1>10 K+</h1>
+            <p>Years of Experience</p>
+          </div>
         </div>
       </div>
       <div className={styles.imageContainer}>
-        <Image src="/images/about.png" alt="about" fill />
+        <Image
+          src="/images/about.png"
+          alt="about"
+          fill
+          className={styles.img}
+        />
       </div>
     </div>
   );
